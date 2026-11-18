@@ -86,8 +86,9 @@ TeX parsing verifies renderability, and Python AST checks verify syntax rather
 than executing every optional scientific, GPU, MPI, or distributed dependency.
 See [CORRECTIONS.md](CORRECTIONS.md) for concrete mathematical fixes and sources.
 
-The new merged Pages deployment is manual and was not deployed as part of this
-review. GitHub Actions results are separate from the local checks and must not
-be inferred from a successful push. The original static site's runtime still
+Pages deployment runs through GitHub Actions on pushes to `main` and can also
+be started manually. The initial content review preceded the first deployment.
+Workflow results and the public site establish deployment status separately
+from the local checks; a push alone does not establish successful deployment. The original static site's runtime still
 uses CDNs; its source build is dependency-free. Built `dist/` and `docs/` folders
 are local artifacts and are intentionally excluded from source commits.

@@ -69,10 +69,13 @@ and [VALIDATION.md](VALIDATION.md) for executed checks and performance evidence.
 
 ## GitHub Actions and Pages
 
-CI runs tests, lint, and a production build on pushes and pull requests. To deploy
-this new repository, set **Settings → Pages → Source** to **GitHub Actions**, then
-run the manual **Deploy Math Merged to GitHub Pages** workflow. Publishing the
-repository does not by itself verify or enable its Pages deployment.
+CI runs tests, lint, and a production build on pushes and pull requests. The
+**Deploy Math Merged to GitHub Pages** workflow deploys pushes to `main` after
+its tests, lint, and build pass. It can also be started manually from Actions.
+Pages uses **Settings → Pages → Source → GitHub Actions**.
+
+Site: [Math Merged](https://zmath01.github.io/math-merged/).
+Check the deployment workflow's result for the status of a specific revision.
 
 ## License
 

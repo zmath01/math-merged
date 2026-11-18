@@ -1,0 +1,761 @@
+{
+  "sourceCommits": {
+    "math-graph": "36b091cb1c4beeb94aed9eade64846f3c4da6a21",
+    "math-knowledge-graph": "515451bafa15c248b368da2ef9e099925bbd1f36"
+  },
+  "originalTopicCount": 125,
+  "canonicalTopicCount": 99,
+  "collapsedTopicCount": 26,
+  "mappings": [
+    {
+      "repository": "math-graph",
+      "originalId": "linalg",
+      "canonicalId": "linalg",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-vectors",
+      "canonicalId": "linalg-vectors",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-matrices",
+      "canonicalId": "linalg-matrices",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-eigen",
+      "canonicalId": "linalg-eigen",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-decomp",
+      "canonicalId": "linalg-decomp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-norms",
+      "canonicalId": "linalg-norms",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-gram",
+      "canonicalId": "linalg-gram",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "linalg-pca",
+      "canonicalId": "linalg-pca",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat",
+      "canonicalId": "probstat",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-random-variables",
+      "canonicalId": "probstat-random-variables",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-distributions",
+      "canonicalId": "probstat-distributions",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-bayes",
+      "canonicalId": "probstat-bayes",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-expectation",
+      "canonicalId": "probstat-expectation",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-mle",
+      "canonicalId": "probstat-mle",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-hypothesis",
+      "canonicalId": "probstat-hypothesis",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "probstat-montecarlo",
+      "canonicalId": "probstat-montecarlo",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq",
+      "canonicalId": "diffeq",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-ode1",
+      "canonicalId": "diffeq-ode1",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-ode2",
+      "canonicalId": "diffeq-ode2",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-laplace",
+      "canonicalId": "diffeq-laplace",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-systems",
+      "canonicalId": "diffeq-systems",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-stability",
+      "canonicalId": "diffeq-stability",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "diffeq-numerical",
+      "canonicalId": "diffeq-numerical",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys",
+      "canonicalId": "mathphys",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-pde",
+      "canonicalId": "mathphys-pde",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-complex",
+      "canonicalId": "mathphys-complex",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-fourier",
+      "canonicalId": "mathphys-fourier",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-green",
+      "canonicalId": "mathphys-green",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-bvp",
+      "canonicalId": "mathphys-bvp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "mathphys-special",
+      "canonicalId": "mathphys-special",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp",
+      "canonicalId": "scicomp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-fdm",
+      "canonicalId": "scicomp-fdm",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-fem",
+      "canonicalId": "scicomp-fem",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-interpolation",
+      "canonicalId": "scicomp-interpolation",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-quadrature",
+      "canonicalId": "scicomp-quadrature",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-fft",
+      "canonicalId": "scicomp-fft",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "scicomp-linear",
+      "canonicalId": "scicomp-linear",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml",
+      "canonicalId": "ml",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-regression",
+      "canonicalId": "ml-regression",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-optimization",
+      "canonicalId": "ml-optimization",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-gradient",
+      "canonicalId": "gradient-descent",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-svm",
+      "canonicalId": "ml-svm",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-trees",
+      "canonicalId": "ml-trees",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-clustering",
+      "canonicalId": "ml-clustering",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "ml-evaluation",
+      "canonicalId": "ml-evaluation",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl",
+      "canonicalId": "dl",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-mlp",
+      "canonicalId": "dl-mlp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-backprop",
+      "canonicalId": "dl-backprop",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-convnet",
+      "canonicalId": "dl-convnet",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-recurrent",
+      "canonicalId": "dl-recurrent",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-activation",
+      "canonicalId": "dl-activation",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-batchnorm",
+      "canonicalId": "dl-batchnorm",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "dl-regularization",
+      "canonicalId": "dl-regularization",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers",
+      "canonicalId": "transformers",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-attention",
+      "canonicalId": "transformers-attention",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-encoder",
+      "canonicalId": "transformers-encoder",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-decoder",
+      "canonicalId": "transformers-decoder",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-bert",
+      "canonicalId": "transformers-bert",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-gpt",
+      "canonicalId": "transformers-gpt",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-positional",
+      "canonicalId": "transformers-positional",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "transformers-tokenization",
+      "canonicalId": "transformers-tokenization",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization",
+      "canonicalId": "optimization",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-convex",
+      "canonicalId": "optimization-convex",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-grad",
+      "canonicalId": "gradient-descent",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-newton",
+      "canonicalId": "optimization-newton",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-lagrange",
+      "canonicalId": "optimization-lagrange",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-linprog",
+      "canonicalId": "optimization-linprog",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "optimization-sgd",
+      "canonicalId": "optimization-sgd",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt",
+      "canonicalId": "algoopt",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-complexity",
+      "canonicalId": "algoopt-complexity",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-dp",
+      "canonicalId": "algoopt-dp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-greedy",
+      "canonicalId": "algoopt-greedy",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-graph",
+      "canonicalId": "algoopt-graph",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-parallel",
+      "canonicalId": "algoopt-parallel",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "algoopt-cache",
+      "canonicalId": "algoopt-cache",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc",
+      "canonicalId": "hpc",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-parallel",
+      "canonicalId": "hpc-parallel",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-mpi",
+      "canonicalId": "hpc-mpi",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-openmp",
+      "canonicalId": "hpc-openmp",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-gpu",
+      "canonicalId": "hpc-gpu",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-cuda",
+      "canonicalId": "hpc-cuda",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-distributed",
+      "canonicalId": "hpc-distributed",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-graph",
+      "originalId": "hpc-profiling",
+      "canonicalId": "hpc-profiling",
+      "sourceCommit": "36b091cb1c4beeb94aed9eade64846f3c4da6a21"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "limits-continuity",
+      "canonicalId": "limits-continuity",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "differentiation",
+      "canonicalId": "differentiation",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "integration",
+      "canonicalId": "integration",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "sequences-series",
+      "canonicalId": "sequences-series",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "multivariable-calculus",
+      "canonicalId": "multivariable-calculus",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "vector-calculus",
+      "canonicalId": "vector-calculus",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "ordinary-differential-equations",
+      "canonicalId": "diffeq",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "partial-differential-equations",
+      "canonicalId": "mathphys-pde",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "complex-analysis",
+      "canonicalId": "mathphys-complex",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "fourier-analysis",
+      "canonicalId": "mathphys-fourier",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "vectors-matrices",
+      "canonicalId": "linalg-matrices",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "linear-systems",
+      "canonicalId": "scicomp-linear",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "vector-spaces",
+      "canonicalId": "linalg-vectors",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "linear-transformations",
+      "canonicalId": "linear-transformations",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "eigenvalues-eigenvectors",
+      "canonicalId": "linalg-eigen",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "inner-product-spaces",
+      "canonicalId": "inner-product-spaces",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "matrix-decompositions",
+      "canonicalId": "linalg-decomp",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "tensors",
+      "canonicalId": "tensors",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "probability-axioms",
+      "canonicalId": "probability-axioms",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "random-variables",
+      "canonicalId": "probstat-random-variables",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "distributions",
+      "canonicalId": "probstat-distributions",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "expectation-variance",
+      "canonicalId": "probstat-expectation",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "statistical-inference",
+      "canonicalId": "statistical-inference",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "stochastic-processes",
+      "canonicalId": "stochastic-processes",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "convex-optimization",
+      "canonicalId": "optimization-convex",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "gradient-descent",
+      "canonicalId": "gradient-descent",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "newtons-method",
+      "canonicalId": "optimization-newton",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "constrained-optimization",
+      "canonicalId": "optimization-lagrange",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "numerical-optimization",
+      "canonicalId": "optimization",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "linear-regression",
+      "canonicalId": "ml-regression",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "logistic-regression",
+      "canonicalId": "ml-regression",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "neural-networks",
+      "canonicalId": "dl",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "convolutional-neural-networks",
+      "canonicalId": "dl-convnet",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "recurrent-neural-networks",
+      "canonicalId": "dl-recurrent",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "transformers",
+      "canonicalId": "transformers",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "time-series",
+      "canonicalId": "time-series",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "brownian-motion",
+      "canonicalId": "brownian-motion",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "black-scholes",
+      "canonicalId": "black-scholes",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "portfolio-optimization",
+      "canonicalId": "portfolio-optimization",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "algorithm-complexity",
+      "canonicalId": "algoopt-complexity",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "parallel-computing",
+      "canonicalId": "hpc-parallel",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    },
+    {
+      "repository": "math-knowledge-graph",
+      "originalId": "numerical-linear-algebra",
+      "canonicalId": "numerical-linear-algebra",
+      "sourceCommit": "515451bafa15c248b368da2ef9e099925bbd1f36"
+    }
+  ]
+}
